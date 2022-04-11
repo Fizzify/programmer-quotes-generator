@@ -6,6 +6,10 @@
       return { 
 	props: { quote: data }
       }
+    } else {
+      return {
+	props: { quote: "Sadly, you have no internet." }
+      }
     }
   }
 </script>
